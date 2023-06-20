@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Guess Number checking</h1>
+    <script>
+              function Guess( a , b ) {
+if ( a == b ) {
+    console.log('Good Luck!');
+} else {
+    console.log('The numer has  not matched');
+}
+
+}
+// for ( let num = 0 ; num < 10 ; num++ ) {
+//     a = (Math.random()*10);
+//     b = prompt('Guess any number');
+//     Guess( a , b );
+// }
+    a = Math.floor((Math.random()*2));
+    // console.log(a);
+    b = prompt('Guess any number');
+    Guess( a , b );
+    </script>
+</body>
+</html>
